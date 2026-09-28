@@ -1,10 +1,10 @@
-# HasnurVerif
+# SystemVerif
 
-Sistem verifikasi status data karyawan Hasnur Group. Digunakan oleh Rumah Sakit (RS) mitra untuk mengecek apakah seseorang benar karyawan aktif Hasnur hanya dengan memasukkan **NRP**.
+Sistem verifikasi status data karyawan Group. Digunakan oleh Rumah Sakit (RS) mitra untuk mengecek apakah seseorang benar karyawan aktif hanya dengan memasukkan **NRP**.
 
 ## Fitur
 
-- **Admin** (login via SSO Hasnur Group, whitelist NRP):
+- **Admin** (login via SSO Group, whitelist NRP):
   - Kelola data RS mitra (nama, slug/link, nomor WA PIC lebih dari satu + keterangan).
   - Upload / lihat / hapus PKS (PDF).
   - Dashboard grafik pengecekan per RS per hari.
@@ -37,7 +37,7 @@ APP_URL=http://127.0.0.1:8181
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=hasnur_verif
+DB_DATABASE=hsn_verif
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -48,7 +48,7 @@ MHICS_DB_DATABASE=mhcis
 MHICS_DB_USERNAME=root
 MHICS_DB_PASSWORD=
 
-# SSO Hasnur Group
+# SSO Group
 SSO_LOGIN_URL=
 SSO_APP_ID=
 SSO_APP_SECRET=
